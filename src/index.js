@@ -21,7 +21,7 @@ render(
   
   <BrowserRouter>
 
-    <Routes  basename="/react-shopping">
+    <Routes >
 
       <Route path="/" element={<Signin />} />
       <Route path="products" element={<Products />} />

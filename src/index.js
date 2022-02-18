@@ -2,7 +2,8 @@ import { render } from "react-dom";
 import {
   BrowserRouter,
   Routes,
-  Route
+  Route,
+  HashRouter 
 } from "react-router-dom";
 // import App from "./App";
 // import Expenses from "./routes/expenses";
@@ -19,7 +20,7 @@ const rootElement = document.getElementById("root");
 
 render(
   
-  <BrowserRouter>
+  <HashRouter >
 
     <Routes >
 
@@ -34,6 +35,6 @@ render(
 
     </Routes>
 
-  </BrowserRouter>,
+  </HashRouter >,
   rootElement
 );

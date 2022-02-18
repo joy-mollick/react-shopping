@@ -1,6 +1,6 @@
 {
   "homepage": "http://joy-mollick.github.io/react-shopping",
-  "name": "demo_shoping_website",
+  "name": "react-shopping",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
